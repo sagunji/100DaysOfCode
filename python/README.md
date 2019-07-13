@@ -19,3 +19,23 @@ First you will write a function to take out duplicates and title case them.
 Then you will sort the list in alphabetical descending order by surname and lastly determine what the shortest first name is. For this exercise you can assume there is always one name and one surname.
 
 With some handy Python builtins you can write this in a pretty concise way. Get it sorted :)
+
+## Day 3
+Write a function that rotates characters in a string, in both directions:
+
+if n is positive move characters from beginning to end, e.g.: rotate('hello', 2) would return llohe
+if n is negative move characters to the start of the string, e.g.: rotate('hello', -2) would return lohel
+
+## Day 4
+Iterate over the given names and countries lists, printing them prepending the number of the loop (starting at 1). Here is the output you need to deliver:
+```
+1. Julian     Australia
+2. Bob        Spain
+3. PyBites    Global
+4. Dante      Argentina
+5. Martin     USA
+6. Rodolfo    Mexico
+```
+Notice that the 2nd column should have a fixed width of 11 chars, so between Julian and Australia there are 5 spaces, between Bob and Spain, there are 8. This column should also be aligned to the left.
+
+Ideally you use only one for loop, but that is not a requirement.
