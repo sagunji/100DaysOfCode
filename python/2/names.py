@@ -1,3 +1,5 @@
+import re
+
 NAMES = [
     "arnold schwarzenegger",
     "alec baldwin",
@@ -32,3 +34,4 @@ def shortest_first_name(names):
     """
     names = dedup_and_title_case_names(names)
     return min([name.split(" ")[0] for name in names], key=len)
+
