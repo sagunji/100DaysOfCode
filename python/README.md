@@ -39,3 +39,9 @@ Iterate over the given names and countries lists, printing them prepending the n
 Notice that the 2nd column should have a fixed width of 11 chars, so between Julian and Australia there are 5 spaces, between Bob and Spain, there are 8. This column should also be aligned to the left.
 
 Ideally you use only one for loop, but that is not a requirement.
+
+## Day 5
+Write a generator that returns special dates for PyBites:
+
+- Every year mark counting from PYBITES_BORN date
+- Every 100 days mark counting from PYBITES_BORN
