@@ -45,3 +45,8 @@ Write a generator that returns special dates for PyBites:
 
 - Every year mark counting from PYBITES_BORN date
 - Every 100 days mark counting from PYBITES_BORN
+
+## Day 6
+Write a simple property
+Write a simple `Promo` class. Its constructor receives a name `str` and expires `datetime`.
+Add a property called expired which returns a `bool`.
