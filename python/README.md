@@ -50,3 +50,11 @@ Write a generator that returns special dates for PyBites:
 Write a simple property
 Write a simple `Promo` class. Its constructor receives a name `str` and expires `datetime`.
 Add a property called expired which returns a `bool`.
+
+## day 7
+Given the provided cars dictionary:
+
+Get all Jeeps
+Get the first car of every manufacturer.
+Get all vehicles containing the string Trail in their names (should work for other grep too)
+Sort the models (`values`) alphabetically
