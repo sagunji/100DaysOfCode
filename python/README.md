@@ -52,9 +52,11 @@ Write a simple `Promo` class. Its constructor receives a name `str` and expires 
 Add a property called expired which returns a `bool`.
 
 ## day 7
-Given the provided cars dictionary:
+1. Given the provided cars dictionary:
 
-Get all Jeeps
-Get the first car of every manufacturer.
-Get all vehicles containing the string Trail in their names (should work for other grep too)
-Sort the models (`values`) alphabetically
+   Get all Jeeps
+   Get the first car of every manufacturer.
+   Get all vehicles containing the string Trail in their names (should work for other grep too)
+   Sort the models (`values`) alphabetically
+2. Write a function to determine if a word (or phrase) is (a palindrome)[https://en.wikipedia.org/wiki/Palindrome].
+   Then write a second function to receive a word (or phrase) list and determine which word is the longest palindrome.
