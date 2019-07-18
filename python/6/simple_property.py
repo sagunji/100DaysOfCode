@@ -8,9 +8,3 @@ class Promo:
         self.name = name
         self.expires = expires
         self.expired = True if ((self.expires - NOW).days < 0) else False
-
-
-promo = Promo("test", datetime.now())
-print(promo.name)
-print(promo.expires)
-print(promo.expired)
