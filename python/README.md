@@ -51,7 +51,7 @@ Write a simple property
 Write a simple `Promo` class. Its constructor receives a name `str` and expires `datetime`.
 Add a property called expired which returns a `bool`.
 
-## day 7
+## Day 7
 1. Given the provided cars dictionary:
 
    Get all Jeeps
