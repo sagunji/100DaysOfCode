@@ -60,3 +60,39 @@ Add a property called expired which returns a `bool`.
    Sort the models (`values`) alphabetically
 2. Write a function to determine if a word (or phrase) is (a palindrome)[https://en.wikipedia.org/wiki/Palindrome].
    Then write a second function to receive a word (or phrase) list and determine which word is the longest palindrome.
+
+## Day 8
+Dictionary comprehensions are awesome.
+A dictionary comprehension is like a list comprehension, but it constructs a `dict` instead of a `list`. They are convenient to quickly operate on each (`key`, `value`) pair of a `dict`. And often in one line of code, maybe two after checking (PEP8)[https://pep8.org/] ;)
+
+We think they are elegant, that's why we want you to know about them!
+
+In this Bite you are given a `dict` and a `set`. Write a dictionary comprehension that filters out the items in the set and returns the resulting dict, so if your dict is `{1: 'bob', 2: 'julian', 3: 'tim'}` and your set is `{2, 3}`, the resulting dict would be `{1: 'bob'}`.
+
+## Day 9
+Don't let mutability fool you
+n this Bite you are presented with a function that copies the given items data structure.
+There is a problem though, the tests fail. Can you fix it?
+This can be done in a one liner. If you know which module to use it will be easy, if not you will learn something new today.
+Regardless we want you to think about Python's mutability.
+
+## Day 10
+Rewrite a for loop using recursion
+Although you have to be careful using recursion it is one of those concepts you want to at least understand. It's also commonly used in coding interviews :)
+
+In this beginner Bite we let you rewrite a simple countdown for loop using recursion. See `countdown_for` below, it produces the following output:
+
+```
+$ python countdown.py
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+time is up
+```
