@@ -70,11 +70,25 @@ We think they are elegant, that's why we want you to know about them!
 In this Bite you are given a `dict` and a `set`. Write a dictionary comprehension that filters out the items in the set and returns the resulting dict, so if your dict is `{1: 'bob', 2: 'julian', 3: 'tim'}` and your set is `{2, 3}`, the resulting dict would be `{1: 'bob'}`.
 
 ## Day 9
-Don't let mutability fool you
-n this Bite you are presented with a function that copies the given items data structure.
-There is a problem though, the tests fail. Can you fix it?
-This can be done in a one liner. If you know which module to use it will be easy, if not you will learn something new today.
-Regardless we want you to think about Python's mutability.
+1. Don't let mutability fool you
+   n this Bite you are presented with a function that copies the given items data structure.
+   There is a problem though, the tests fail. Can you fix it?
+   This can be done in a one liner. If you know which module to use it will be easy, if not you will learn something new today.
+   Regardless we want you to think about Python's mutability.
+2. Martin is preparing to pass an IQ test.
+   The most frequent task in this test is to find out which one of the given characters differs from the others. He observed that one char usually differs from the others in being alphanumeric or not.
+
+   Please help Martin! To check his answers, he needs a program to find the different one (the alphanumeric among non-alphanumerics or vice versa) among the given characters.
+
+   Complete `get_index_different_char` to meet this goal. It receives a chars list and returns an `int index` (zero-based).
+
+   Just to be clear, `alphanumeric == abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789`
+
+   Examples:
+   ```
+   ['A', 'f', '.', 'Q', 2]  # returns index 2 (dot is non-alphanumeric among alphanumerics)
+   ['.', '{', ' ^', '%', 'a']  # returns index 4 ('a' is alphanumeric among non-alphanumerics)
+   ```
 
 ## Day 10
 Rewrite a for loop using recursion
