@@ -110,3 +110,9 @@ $ python countdown.py
 1
 time is up
 ```
+
+## Day 11
+Using ElementTree to parse XML
+In this Bite you will use `ElementTree` to parse some (Nolan movies)[https://www.imdb.com/name/nm0634240/] we extracted from (OMDb)[https://www.omdbapi.com/].
+
+Luckily most APIs switched to JSON, but sometimes XML is all there is, so at least learn to parse some! Complete the `get_tree`, `get_movies` and `get_movie_longest_runtime` functions below. See the docstrings and tests for more info.
