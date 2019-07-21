@@ -112,7 +112,17 @@ time is up
 ```
 
 ## Day 11
-Using ElementTree to parse XML
-In this Bite you will use `ElementTree` to parse some (Nolan movies)[https://www.imdb.com/name/nm0634240/] we extracted from (OMDb)[https://www.omdbapi.com/].
+1. Using ElementTree to parse XML
+   In this Bite you will use `ElementTree` to parse some (Nolan movies)[https://www.imdb.com/name/nm0634240/] we extracted from (OMDb)[https://www.omdbapi.com/].
 
-Luckily most APIs switched to JSON, but sometimes XML is all there is, so at least learn to parse some! Complete the `get_tree`, `get_movies` and `get_movie_longest_runtime` functions below. See the docstrings and tests for more info.
+   Luckily most APIs switched to JSON, but sometimes XML is all there is, so at least learn to parse some! Complete the `get_tree`, `get_movies` and `get_movie_longest_runtime` functions below. See the docstrings and tests for more info.
+2. Write a decorator called `make_html` that wraps text inside one or more html tags.
+
+   As shown in the tests decorating `get_text` with `make_html` twice should wrap the text in the corresponding html tags, so:
+   ```
+   @make_html('p')
+   @make_html('strong')
+   def get_text(text='I code with PyBites'):
+       return text
+   ```
+   - would return: `<p><strong>I code with PyBites</strong></p>`
