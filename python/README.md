@@ -1,5 +1,5 @@
 # 100 Days of Code with Python
-Following (code challenges)[https://codechalleng.es/100days/community/100_days_of_awesome_python]
+Following [code challenges](https://codechalleng.es/100days/community/100_days_of_awesome_python)
 
 ## Prerequisites
 1. python
@@ -58,12 +58,12 @@ Add a property called expired which returns a `bool`.
    Get the first car of every manufacturer.
    Get all vehicles containing the string Trail in their names (should work for other grep too)
    Sort the models (`values`) alphabetically
-2. Write a function to determine if a word (or phrase) is (a palindrome)[https://en.wikipedia.org/wiki/Palindrome].
+2. Write a function to determine if a word (or phrase) is [a palindrome](https://en.wikipedia.org/wiki/Palindrome).
    Then write a second function to receive a word (or phrase) list and determine which word is the longest palindrome.
 
 ## Day 8
 Dictionary comprehensions are awesome.
-A dictionary comprehension is like a list comprehension, but it constructs a `dict` instead of a `list`. They are convenient to quickly operate on each (`key`, `value`) pair of a `dict`. And often in one line of code, maybe two after checking (PEP8)[https://pep8.org/] ;)
+A dictionary comprehension is like a list comprehension, but it constructs a `dict` instead of a `list`. They are convenient to quickly operate on each (`key`, `value`) pair of a `dict`. And often in one line of code, maybe two after checking [PEP8](https://pep8.org/) ;)
 
 We think they are elegant, that's why we want you to know about them!
 
@@ -113,7 +113,7 @@ time is up
 
 ## Day 11
 1. Using ElementTree to parse XML
-   In this Bite you will use `ElementTree` to parse some (Nolan movies)[https://www.imdb.com/name/nm0634240/] we extracted from (OMDb)[https://www.omdbapi.com/].
+   In this Bite you will use `ElementTree` to parse some [Nolan movies](https://www.imdb.com/name/nm0634240/) we extracted from [OMDb](https://www.omdbapi.com/).
 
    Luckily most APIs switched to JSON, but sometimes XML is all there is, so at least learn to parse some! Complete the `get_tree`, `get_movies` and `get_movie_longest_runtime` functions below. See the docstrings and tests for more info.
 2. Write a decorator called `make_html` that wraps text inside one or more html tags.
