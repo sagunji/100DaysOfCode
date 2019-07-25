@@ -134,4 +134,11 @@ It takes two arguments: `parts` and `chars_per_part` which default to 4 and 8 re
 
  - `gen_key()` to get a similar key as above, or
  - as `gen_key(parts=3, chars_per_part=4)` to get a shorter one, e.g.: 54N8-I70K-2JZ7.
-Before you default to `random`, check if Python >= 3.6 has a better option available for this task 
+Before you default to `random`, check if Python >= 3.6 has a better option available for this task
+
+## Day 13
+Keep a queue of last n items
+Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first. A real-world example of queue can be a single-lane one-way road, where the vehicle enters first, exits first. More real-world examples can be seen as queues at the ticket windows and bus-stops. [source](https://www.tutorialspoint.com/data_structures_algorithms/dsa_queue.htm)
+Complete the `my_queue` function to return a queue-like data type that keeps the last `n` items.
+
+Check the standard library to see how you can do this in the shortest/most efficient way.
