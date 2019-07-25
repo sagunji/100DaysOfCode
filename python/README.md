@@ -142,3 +142,13 @@ Queue follows First-In-First-Out methodology, i.e., the data item stored first w
 Complete the `my_queue` function to return a queue-like data type that keeps the last `n` items.
 
 Check the standard library to see how you can do this in the shortest/most efficient way.
+
+## Day 14
+Word Values
+Calculate the dictionary word that would have the most value in [Scrabble](https://en.wikipedia.org/wiki/Scrabble).
+
+There are 3 tasks to complete for this Bite:
+
+ - First write a function to read in dictionary.txt (`DICTIONARY` constant) and return a list of words.
+ - Second write a function that receives a word and calculates its value. Use the scores stored in `LETTER_SCORES`.
+ - With these two pieces in place, write a third function that takes a list of words and returns the word with the highest value.
