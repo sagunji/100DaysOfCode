@@ -33,6 +33,5 @@ def get_longest_palindrome(words=None):
     """Given a list of words return the longest palindrome
        If called without argument use the load_dictionary helper
        to populate the words list"""
-    longest_palindrome = ""
     words = words or load_dictionary()
     return max((word for word in words if is_palindrome(word)), key=len)
