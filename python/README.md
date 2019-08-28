@@ -152,3 +152,6 @@ There are 3 tasks to complete for this Bite:
  - First write a function to read in dictionary.txt (`DICTIONARY` constant) and return a list of words.
  - Second write a function that receives a word and calculates its value. Use the scores stored in `LETTER_SCORES`.
  - With these two pieces in place, write a third function that takes a list of words and returns the word with the highest value.
+
+
+ # Trail Ended :( :( 
