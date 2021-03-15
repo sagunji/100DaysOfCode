@@ -6,7 +6,6 @@ def isBalanced(s):
     for c in s:
         if c == "(" or c == "{" or c == "[":
             stack.append(c)
-            print(stack)
             top += 1
         elif top >= 0 and (
             (c == ")" and stack[top] == "(")
@@ -14,7 +13,6 @@ def isBalanced(s):
             or (c == "]" and stack[top] == "[")
         ):
             stack.pop()
-            print(stack)
             top -= 1
         else:
             imbalance = True
